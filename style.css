@@ -1,0 +1,76 @@
+body {
+
+    background-color: gold;
+    
+    
+    }
+    
+    #show_sketch {
+    
+    float: right;
+    padding: 10px;
+    margin: 70px;
+    background-color: green;
+    }
+    
+    #label{
+    
+    font-size: 20px;
+    padding: 20px;
+    }
+    
+    #confidence {
+    
+    font-size: 20px;
+    padding: 20px;
+    }
+    
+    #clear_canvas{
+    
+    float: none;
+    background-color: #fc7b03;
+    margin-left: 10px ;
+    }
+    
+    
+    h1 {
+    
+    background-color: rgba(0, 255, 255, 0.815);
+    margin: 0px;
+    padding: 10px;
+    
+    }
+    
+    canvas {
+    
+    margin-top: 160px;
+    border-radius: 30px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    }
+    
+    
+        @keyframes example {
+            0%   {box-shadow: 1px 1px 30px cyan;}
+            25%  {box-shadow: 1px 1px 30px lavenderblush;}
+            50%  {box-shadow: 1px 1px 30px skyblue;}
+            75%  {box-shadow: 1px 1px 30px lime;}
+            100% {box-shadow: 1px 1px 30px pink;}
+          }
+   
+
+#score {
+
+float: left;
+font-size: larger;
+font-family: 'Courier New', Courier, monospace;
+}
+
+#time {
+
+float: right;
+font-size: larger;
+font-family: 'Courier New', Courier, monospace;
+}
+
